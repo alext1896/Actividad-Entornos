@@ -25,10 +25,10 @@ public class MainBusqueda {
 		 * el número introducido por teclado. Si el resultado es true se imprimirá por pantalla si se ha encontrado o no.  
 		 */
 		if (actividad.busquedaLineal(num) == true) {
-			System.out.println("El número se ha encontrado");
+			System.out.println("El número se ha encontrado!");
 		}
 		else {
-			System.out.println("El número no se ha encontrado");
+			System.out.println("El número no se ha encontrado!");
 		}
 		
 		sc.close();
